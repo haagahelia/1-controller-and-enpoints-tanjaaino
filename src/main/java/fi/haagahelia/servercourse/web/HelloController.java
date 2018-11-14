@@ -10,7 +10,7 @@ public class HelloController {
 
 	@RequestMapping("/index")
 	public String indexPage() {
-		return "This is the main page";
+		return "This is not the main page";
 	}
 
 	@RequestMapping("/contact")
